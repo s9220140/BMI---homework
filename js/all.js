@@ -62,6 +62,7 @@ function showBtn(items) {
     result2.style.borderColor = items[i].status.color;
     returnBtn.style.backgroundColor = items[i].status.color;
     stateText.style.color = items[i].status.color;
+    stateText.innerHTML = items[i].status.state;
     num.textContent = items[i].bmi;
   }
 }
