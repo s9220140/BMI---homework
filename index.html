@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="BMI計算器，計算BMI並顯示身體狀態">
+    <meta property="og:type" content="article" />
+    <meta property="og:title" content="BMI計算器" />
+    <meta property="og:description" content="BMI計算器，計算BMI並顯示身體狀態" />
+    <meta property="og:url" content="" />
+    <meta property="og:site_name" content="BMI計算器" />
+    <meta property="og:image" content="images/BMICLogo.png" />
+    <link rel="shortcut icon" href="images/body_icon.ico" type="image/x-icon">
+    <link rel="stylesheet" href="css/all.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+    <title>BMI計算器</title>
+</head>
+
+<body>
+    <header>
+        <div class="container">
+            <form>
+                <h1 class="logo">BMI</h1>
+                <div class="input-data">
+                    <label for="height">身高 cm</label>
+                    <input id="height" class="height" type="text" placeholder="請輸入身高">
+                    <label for="weight">體重 kg</label>
+                    <input id="weight" class="weight" type="text" placeholder="請輸入體重">
+                </div>
+                <div class="result">看結果</div>
+                <div class="result2">
+                    <p class="resultNum">20.90</p>
+                    <p>BMI</p>
+                    <div class="return"></div>
+                </div>
+                <span class="state">理想</span>
+            </form>
+        </div>
+    </header>
+    <main>
+        <div class="container">
+            <h2>BMI紀錄</h2>
+            <button class="clearBtn">刪除全部</button>
+            <ul class="user-data">
+            </ul>
+        </div>
+    </main>
+    <footer>
+        <img src="images/BMICLogo.png" alt="BMICLogo">
+    </footer>
+    <script src="js/all.js"></script>
+</body>
+
+</html>
